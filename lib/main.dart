@@ -64,7 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
             children: [
               const Center(
                 child: CircleAvatar(
-                  backgroundImage: AssetImage("assets/raktim2.jpeg"),
+                  backgroundImage: AssetImage("assets/human.png"),
                   radius: 50,
                 ),
               ),
@@ -72,20 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 height: 30,
                 color: Colors.grey[400],
               ),
-              const Padding(
-                padding: EdgeInsets.all(8.0),
-                child: TextField(
-                  decoration: InputDecoration(
-                    border: OutlineInputBorder(),
-                    labelText: 'Username',
-                    labelStyle: TextStyle(
-                      color: Colors.white, // White text on gradient
-                      fontWeight: FontWeight.w800,
-                    ),
-                  ),
-                  style: TextStyle(color: Colors.white), // White text input
-                ),
-              ),
+
               const Padding(
                 padding: EdgeInsets.all(8.0),
                 child: TextField(
