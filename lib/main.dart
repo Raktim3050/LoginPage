@@ -114,7 +114,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   style:
                       const TextStyle(color: Colors.white), // White text input
-                  maxLength: 10,
+                  maxLength: 16,
                 ),
               ),
               Padding(
